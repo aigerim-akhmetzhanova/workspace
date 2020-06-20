@@ -1,0 +1,8 @@
+cmsrel CMSSW_10_2_16_UL
+cd CMSSW_10_2_16_UL/src
+cmsenv
+git clone git@github.com:mastrolorenzo/AnalysisTools-1.git AnalysisTools 
+cd AnalysisTools
+#git checkout your favorite branch, otherwise stay on master
+source env.csh #(env.sh if using bash)
+make
